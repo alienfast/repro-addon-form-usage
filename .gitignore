@@ -1,0 +1,38 @@
+*.log
+tmp
+.idea
+.storybook/__*
+.storybook-out
+
+dist
+node_modules
+packages/*/dist
+packages/*/.rpt2_cache
+test-report.xml
+test-results
+tsconfig.tsbuildinfo
+
+# local runs
+test-report.xml
+
+# ci runs
+test-results
+
+.eslintcache
+tsconfig.tsbuildinfo
+
+.pnp.*
+.storybook-out
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+
+**/__generated__/*.json
+
+# releaseFinalize
+packages/*/LICENSE
+packages/*/.npmignore
+
+# ci artifact
+storybook-static
+storybook-static.tar.gz
